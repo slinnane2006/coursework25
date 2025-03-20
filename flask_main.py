@@ -7,4 +7,4 @@ def home():
     return render_template("index.html")
 
 #This tells flask to run the app on your computers IP (incase others might want to connect to it)
-app.run(host='0.0.0.0', port=5899, debug=False)
+app.run(host='0.0.0.0', port=7001, debug=False)

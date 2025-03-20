@@ -35,7 +35,7 @@ plt.bar(X, Y, color='b', width=width) # set width of bars
 plt.title("Sleep hours in relation to attendance ") 
 plt.xlabel("Sleep hours") 
 plt.ylabel("Attendance(%)")
-
+plt.savefig('bar_chart.png')
 
 # Show the plot 
 plt.show()
@@ -49,5 +49,6 @@ plt.scatter(X, Y, color='g')
 plt.title("Study hours in relation to grades") 
 plt.xlabel("Study hours") 
 plt.ylabel("Grades")
+plt.savefig('scatter_chart.png')
 
 plt.show()
